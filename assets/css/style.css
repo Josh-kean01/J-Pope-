@@ -352,3 +352,11 @@
  .slick-initialized .slick-slide {
      outline: 0;
  }
+
+ .single-gallery-image {
+     margin-top: 30px;
+     background-repeat: no-repeat !important;
+     background-position: center center !important;
+     background-size: cover !important;
+     height: 200px
+ }
