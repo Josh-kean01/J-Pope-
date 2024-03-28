@@ -313,7 +313,7 @@
      color: rgba(253, 143, 95, 0.3);
      bottom: 0px;
      z-index: 1;
-     transform: rotate(-45deg) !important;
+     transform: rotate(0deg) !important;
  }
 
  .h1-testimonial-active button.slick-arrow:hover {
@@ -322,7 +322,7 @@
 
  .h1-testimonial-active button.slick-next {
      right: -10px;
-     transform: rotate(45deg) !important;
+     transform: rotate(0deg) !important;
  }
 
  .h1-testimonial-active.dot-style .slick-dots {

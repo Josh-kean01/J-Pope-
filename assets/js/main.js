@@ -121,8 +121,8 @@
       autoplay: true,
       loop: true,
       arrows: true,
-      prevArrow: '<button type="button" class="slick-prev"><i class="ti-arrow-top-left"></i></button>',
-      nextArrow: '<button type="button" class="slick-next"><i class="ti-arrow-top-right"></i></button>',
+      prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-arrow-left-short"></i></button>',
+      nextArrow: '<button type="button" class="slick-next"><i class="bi bi-arrow-right-short"></i></button>',
       slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
