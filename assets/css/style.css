@@ -211,10 +211,6 @@
     -o-transform: rotateY(0deg);
 }
 
-.footer-social a:hover {
-    color: #fff;
-    background: #be9278;
-}
 
 .footer-social a:hover i {
     transform: rotateY(360deg);
@@ -312,7 +308,8 @@
     right: 77px;
     margin: 0 10px;
     font-size: 20px;
-    color: rgba(253, 143, 95, 0.3);
+    color: #b3daf6;
+    font-weight: bold;
     bottom: 0px;
     z-index: 1;
     transform: rotate(0deg) !important;
@@ -348,7 +345,8 @@
 }
 
 .h1-testimonial-active.dot-style .slick-active button {
-    color: #be9278;
+    color: #b3daf6;
+    font-weight: bold;
 }
 
 .slick-initialized .slick-slide {
@@ -403,7 +401,7 @@
 }
 
 .preloader {
-    background-color: #f7f7f7;
+    background-color: #b3daf6;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -415,16 +413,16 @@
     -webkit-transition: .6s;
     -o-transition: .6s;
     transition: .6s;
-    margin: 0 auto
+    margin: 0
 }
 
 .preloader .preloader-circle {
     width: 100px;
     height: 100px;
     position: relative;
-    border-style: solid;
-    border-width: 1px;
-    border-top-color: #BE9278;
+    border-style: inset;
+    border-width: 5px;
+    border-top-color: #1a2e49;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
