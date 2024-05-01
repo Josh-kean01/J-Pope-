@@ -377,7 +377,7 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         padding-inline: 10px;
-        z-index: 9999999999;
+        z-index: 500;
     }
 
     .navbar .navbar-nav {
