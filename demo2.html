@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        :root {
+            --background: #ffffff;
+            --foreground: #1a1a1a;
+            --primary: #1a1a1a;
+            --primary-foreground: #ffffff;
+            --secondary: #e5e5e5;
+            --secondary-foreground: #1a1a1a;
+            --muted: #e5e5e5;
+            --muted-foreground: #767676;
+            --accent: #e5e5e5;
+            --accent-foreground: #1a1a1a;
+            --destructive: #e52e2e;
+            --destructive-foreground: #ffffff;
+            --border: #e0e0e0;
+            --input: #e0e0e0;
+            --ring: #1a1a1a;
+            --radius: 0.5rem;
+        }
+
+        body {
+            counter-reset: name;
+        }
+
+        .carousel-indicators span {
+            counter-increment: name;
+        }
+
+        .bg-background {
+            background-color: var(--background);
+        }
+
+        .text-foreground {
+            color: var(--foreground);
+        }
+
+        .text-muted-foreground {
+            color: var(--muted-foreground);
+        }
+
+        .bg-foreground {
+            background-color: var(--foreground);
+        }
+
+        .text-primary {
+            color: var(--primary);
+        }
+
+        .text-background {
+            color: var(--background);
+        }
+
+        .rounded-lg {
+            border-radius: var(--radius);
+        }
+
+        .shadow-lg {
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        }
+
+        .hover-primary:hover {
+            color: var(--primary) !important;
+        }
+
+        .cursor-pointer {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-background text-foreground p-4 p-md-8">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                                <h1 class="display-4 fw-bold mb-4">Don't Say Bag,<br />Say Gucci</h1>
+                                <p class="text-muted-foreground mb-4">
+                                    Gucci Bag is more comfortable than cotton. Our new design offers several features we
+                                    call "shoulder seams" - that are at either end of your padded sleeve for added
+                                    support under different sized straps. We have one size, so if your bag has a longer
+                                    shoulder strap or short zipper it may need extra fabric to keep up the leg stretch
+                                    of wearing this style above and below other bags on your back.
+                                </p>
+                                <button
+                                    class="btn btn-dark btn-lg d-flex align-items-center mt-3 mt-md-0 order-1 order-md-3">
+                                    <span>Buy Now</span>
+                                    <span class="ms-2" aria-hidden="true">→</span>
+                                </button>
+                            </div>
+                            <div
+                                class="col-md-6 position-relative d-flex align-items-center flex-column order-1 order-md-2">
+                                <h1 class="display-4 fw-bold mb-4 invisible">Don't Say Bag </h1>
+                                <img src="https://placehold.co/600x400" alt="Gucci Bag"
+                                    class="img-fluid rounded-lg shadow-lg" />
+                                <div class="position-absolute top-0 end-0 p-2 text-xl fw-bold text-foreground">GUCCI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-background text-foreground p-4 p-md-8">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                                <h1 class="display-4 fw-bold mb-4">Don't Say Bag,<br />Say Gucci</h1>
+                                <p class="text-muted-foreground mb-4">
+                                    Gucci Bag is more comfortable than cotton. Our new design offers several features we
+                                    call "shoulder seams" - that are at either end of your padded sleeve for added
+                                    support under different sized straps. We have one size, so if your bag has a longer
+                                    shoulder strap or short zipper it may need extra fabric to keep up the leg stretch
+                                    of wearing this style above and below other bags on your back.
+                                </p>
+                                <button
+                                    class="btn btn-dark btn-lg d-flex align-items-center mt-3 mt-md-0 order-1 order-md-3">
+                                    <span>Buy Now</span>
+                                    <span class="ms-2" aria-hidden="true">→</span>
+                                </button>
+                            </div>
+                            <div
+                                class="col-md-6 position-relative d-flex align-items-center flex-column order-1 order-md-2">
+                                <h1 class="display-4 fw-bold mb-4 invisible">Don't Say Bag </h1>
+                                <img src="https://placehold.co/600x400" alt="Gucci Bag"
+                                    class="img-fluid rounded-lg shadow-lg" />
+                                <div class="position-absolute top-0 end-0 p-2 text-xl fw-bold text-foreground">GUCCI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-background text-foreground p-4 p-md-8">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-md-6 d-flex flex-column justify-content-center order-2 order-md-1">
+                                <h1 class="display-4 fw-bold mb-4">Don't Say Bag,<br />Say Gucci</h1>
+                                <p class="text-muted-foreground mb-4">
+                                    Gucci Bag is more comfortable than cotton. Our new design offers several features we
+                                    call "shoulder seams" - that are at either end of your padded sleeve for added
+                                    support under different sized straps. We have one size, so if your bag has a longer
+                                    shoulder strap or short zipper it may need extra fabric to keep up the leg stretch
+                                    of wearing this style above and below other bags on your back.
+                                </p>
+                                <button
+                                    class="btn btn-dark btn-lg d-flex align-items-center mt-3 mt-md-0 order-1 order-md-3">
+                                    <span>Buy Now</span>
+                                    <span class="ms-2" aria-hidden="true">→</span>
+                                </button>
+                            </div>
+                            <div
+                                class="col-md-6 position-relative d-flex align-items-center flex-column order-1 order-md-2">
+                                <h1 class="display-4 fw-bold mb-4 invisible">Don't Say Bag </h1>
+                                <img src="https://placehold.co/600x400" alt="Gucci Bag"
+                                    class="img-fluid rounded-lg shadow-lg" />
+                                <div class="position-absolute top-0 end-0 p-2 text-xl fw-bold text-foreground">GUCCI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more carousel items here if needed -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
