@@ -78,21 +78,27 @@
             position: absolute;
             /* right: initial !important; */
             bottom: initial !important;
-            /* left: initial !important; */
+            left: 75% !important;
             z-index: 2;
             display: flex;
-            justify-content: center;
+            justify-content: end !important;
             padding: 0;
             margin-right: 15%;
             margin-bottom: 1rem;
             margin-left: 15%;
         }
+
+        .carousel-indicators span {
+            width: 1% !important;
+            color: #1a1a1a !important;
+            position: relative;
+        }
     </style>
 </head>
 
 <body>
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators p-4 p-md-8 my-3 mx-0 top-0 end-0">
+    <div id="carouselExample" class="carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-indicators p-4 p-md-8 my-3 mx-0 top-0 end-0 ">
             <span type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active text-primary"
                 aria-current="true" aria-label="Slide 1">1</span>
             <span type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
