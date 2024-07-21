@@ -664,3 +664,33 @@ blockquote {
 .hero-overly h1 {
   font-size: clamp(2rem, 2vw + 1rem, 3.5rem);
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-template-rows: masonry;
+  gap: 1rem;
+}
+
+.gallery .gallery-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+
+/* Targeting the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 10px; /* Height of the scrollbar (for horizontal scroll) */
+}
+
+/* The track (progress bar) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #b3daf6; /* Color of the track */
+}
+
+/* The handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #1a2e49; /* Color of the thumb */
+  border-radius: 10px; /* Rounded corners */
+}
